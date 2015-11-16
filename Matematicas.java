@@ -31,5 +31,20 @@ public class Matematicas {
 		}
 		return encontrado;
 	}
+	
+	public static boolean esDivisiblePorTres(int numero){
+		boolean encontrado=false;
+		if(numero%3==0){
+			encontrado=true;
+		}
+		return encontrado;
+	}
+	public static boolean esDivisiblePorCinco(int numero){
+		boolean encontrado=false;
+		if(numero%5==0){
+			encontrado=true;
+		}
+		return encontrado;
+	}
 }
 

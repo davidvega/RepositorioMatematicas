@@ -30,7 +30,11 @@ public class TestMatematicas {
 		System.out.println("Introduce numero");
 		numero=in.nextInt();
 	     boolean  resultado=Matematicas.esPar(numero);
+	     boolean divisibleTres=Matematicas.esDivisiblePorTres(numero);
+	     boolean divisibleCinco=Matematicas.esDivisiblePorCinco(numero);
 	     System.out.println("Es par?: "+resultado);
+	     System.out.println("Es divisible por tres?"+divisibleTres);
+	       System.out.println("Es divisible por cinco?"+divisibleCinco);
 		
 	}
 }
